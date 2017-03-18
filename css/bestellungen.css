@@ -1,0 +1,25 @@
+i.fa-plus , i.fa-list , i.fa-columns {
+	cursor: pointer;
+	margin-bottom: 0;
+	padding: 5px;
+}
+i.fa-columns {
+	color: white;
+}
+.table {
+	z-index: 50000;
+}
+.pagination {
+	margin: 0;
+	position: absolute;
+	bottom: 10px;
+	left: 10px;
+	z-index: 60000;
+}
+#background img {
+	position: absolute;
+	bottom: 25px;
+	right: 25px;
+	opacity: 0.1;
+	z-index: -10000;
+}

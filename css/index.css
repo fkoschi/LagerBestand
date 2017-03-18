@@ -1,0 +1,269 @@
+html {
+	margin: 0;
+	height: 100%;	
+}
+body {
+	height: 100%;
+	margin: 0;	
+}
+
+#header_nav {
+	background-color: gray;
+	height: 50px;
+	left: 250px;
+	right: 0;
+	margin: 0;		
+	position: absolute;
+	z-index: 1;
+}
+#header_nav i.fa-bars {
+	position: relative;	
+	top: 15px;	
+	margin-left: 20px;
+	cursor: pointer;
+}
+i.fa-plus-square-o {
+	cursor: pointer;
+	right: 15px;
+	top: 15px;
+	position: absolute;
+	z-index: 2;
+	color: white;
+}
+#header_nav h2 {
+	margin-top: -10px;	
+	text-align: center;	
+	color: white;  /* Lindorff Logo Farbe : #0E6463 */
+}
+#sidebar_nav {
+	height: 50px;
+	width: 250px;			
+	z-index: 0;
+	position: absolute;
+	top: 0;
+	/*background: #505050 url(../img/devoops_pattern_b10.png) 0 0 repeat;*/
+	background: #505050 url(../img/Lindorff_Logo_Neu.png) 0 0 no-repeat;
+}
+#sidebar_nav img.logo {
+	right: 5px;
+	bottom: -25px;
+	position: absolute;
+}
+#sidebar_nav img.main_logo {
+	width: 150px;
+	height: 40px;	
+	margin: 5px;
+	left: 0;
+	bottom: 0;
+	position: absolute;
+}
+#sidebar {	
+	width: 100%;
+	height: 100%;	
+	top: 50px;
+	position: absolute;
+	z-index: 1;	
+	background: #6393BA url(../img/devoops_pattern_b10.png) 0 0 repeat;
+}
+#sidebar p.copyright {
+	position: absolute;
+	color: white;
+	font-size: 12px;
+	bottom: 10px;
+	left: 10px;
+}
+#sidebar ul {
+	margin-top: 50px;
+	list-style-type: none;		
+}
+#sidebar ul li {	
+	margin-left: -40px;	
+	padding: 15px 15px;	
+	font-size: 16px;
+	color: white;
+}
+#sidebar ul a.two {	
+	display: none;
+}
+
+/** 
+ ** Aktiver Link 
+  **/
+#sidebar ul a[name='active'] li {
+	background: #0E6463 url(../img/devoops_pattern_b10.png) 0 0 repeat;;
+}  
+#sidebar ul a.two li.two {
+	margin-left: -10px;
+	font-size: 13px;
+}
+#sidebar i {
+	margin-right: 5px;
+}
+#sidebar ul a {	
+	text-decoration: none;
+}
+#sidebar ul a:hover li {
+	background: #80C7FF url(../img/devoops_pattern_b10.png) 0 0 repeat;
+}
+#content {	
+	margin-top: 20px;	
+	padding: 40px 35px;
+	background: #EBEBEB url(../img/devoops_pattern_b10.png) 0 0 repeat;	
+	position: absolute;
+	top: 80px;
+	right: 0;
+	left: 250px;
+	height: 95%;	
+	z-index: 2;
+	overflow: auto;
+	-webkit-box-shadow: -5px 5px 10px 0px rgba(38,38,38,0.5);
+	-moz-box-shadow: -5px 5px 10px 0px rgba(38,38,38,0.5);
+	box-shadow: -5px 5px 10px 0px rgba(38,38,38,0.5);
+}
+#pop_up_box {	
+	display: none;
+	width: 25%;
+	height: 700px;
+	background-color: white;
+	position: absolute;
+	opacity: 1;
+	z-index: 200;	
+	margin-top: 80px;
+	left: 37%;
+	border-radius: 15px;
+	background: url(../img/background_textures/subtle_dots.png);
+
+	-webkit-box-shadow: 0px 0px 50px 5px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0px 0px 50px 5px rgba(0,0,0,0.75);
+	box-shadow: 0px 0px 50px 5px rgba(0,0,0,0.75);
+}
+#overlay {
+	background-color: #333333;	
+	display: none;
+	height: 100%;
+	width: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 100;
+}
+#pop_up_box h2 {	
+	margin-left: 15px;
+	margin-bottom: 55px;
+}
+#pop_up_box p {
+	margin-left	: 15px;	
+}
+#pop_up_box ul.dropdown-menu {
+	right: 0;
+	left: 50%;
+}
+#pop_up_box .input-group {	
+	margin: 5px 45px;
+}
+#pop_up_box p.zeit {
+	margin-top: 50px;
+}
+#pop_up_box #zeit input {
+	text-align: center;
+}
+#pop_up_box #background_pic img {
+	position: absolute;
+	z-index: 0;
+	opacity: 0.1;
+	right: 10px;
+	bottom: 10px;
+}
+#pop_up_box button.btn-primary {
+	position: absolute;
+	margin-top: 50px;
+	right: 45px;
+}
+#pop_up_box i.fa-times {
+	position: absolute;
+	right: 15px;
+	top: 15px;
+	cursor: pointer;
+}
+
+
+/**  				/**
+  **   CONTENT BOXES  **
+   **                  **/
+#content_box {
+	background-color: white;
+	border-radius: 3px;
+}
+#content_box #content_box_header {
+	background-color: #F5F5F5;
+	border-top-left-radius: 3px;
+	border-top-right-radius: 3px;
+	margin: 0 -15px;
+	position: relative;
+}
+#content_box #content_box_header label {
+	margin: 5px 25px;
+	position: relative;
+	font-size: 14px;
+	width: 89%;
+}
+#content_box #content_box_header i.fa-times , #content_box #content_box_header i.fa-expand {
+	color: #B8B8B8;
+	cursor: pointer;
+	padding: 5px 5px;
+	margin: 1px;
+	position: absolute;	
+	border: 1px solid #F5F5F5; 	
+}
+#content_box #content_box_header i.fa-tags {
+	position: absolute;
+	left: 5px;
+	top: 9px;
+}
+#content_box #content_box_header i.fa-times {
+	right: 2px;
+	top: 2px;
+}
+#content_box #content_box_header i.fa-expand {
+	right: 27px;
+	top: 2px;
+}
+#content_box #content_box_header i.fa-expand:hover , #content_box #content_box_header i.fa-times:hover {
+	border: 1px solid #EDEDED;
+}
+#content_box hr {
+	margin: 0 -13px 5px;	
+}
+#content_box #content_box_content {
+	margin: 10px 0px;
+	position: relative;
+	min-height: 50%;	
+}
+#content_box #content_box_content #columnChart , #content_box #content_box_content #piechart {
+	position: relative;
+	height: 250px;	
+	margin: 0 auto;
+	width: 90%;
+}
+#content_box #content_box_content #linechart {
+	margin: 0 auto;
+	height: 300px;
+	width: 90%;
+}
+#loading {
+	position: absolute;
+	z-index: 1000;
+	top: 110px;
+	left: 270px;
+}
+
+/** 
+  *** ALERT 
+    **/
+#alert_success , #alert_error {
+	position: fixed;
+	display: none;
+	z-index: 10000;
+	top: 15px;
+	left: 50%;
+}

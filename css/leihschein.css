@@ -1,0 +1,44 @@
+table {
+	position: absolute;	
+}
+span.badge {
+	background: #0E6463;
+}
+
+input[id="datepicker"] {
+	text-align: center;
+	color: black;	
+}
+#name input , #abteilung input , #gegenstand input , #leihdauer input, #seriennummer input , #leihgrund input {
+	text-align: right;
+}
+
+i.fa-expand {
+	cursor: pointer;
+	position: absolute;
+	right: 5px;
+	bottom: 5px;
+}
+i.fa-check {
+	cursor: pointer;
+	color: green;
+}
+
+#returnLeihschein i.fa-thumbs-o-up {
+	position: absolute;
+	bottom: 10px;
+	right: 20px;
+}
+#returnLeihschein h4 {
+	color: #0E6463;
+}
+#pagination {
+	position: absolute;
+	right: 20px;
+	bottom: -100px;	
+}
+img[name="picLeihschein"] {
+	position: absolute;
+	top: 80px;
+	left: 10px;
+}

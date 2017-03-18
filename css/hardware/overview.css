@@ -1,0 +1,26 @@
+table {
+	background-color: white;
+}
+p.anzahl_auf_lager {
+	font-size: 128px;
+}
+#suche {
+	position: relative;
+	margin-top: 80%;
+}
+.page-header h2 {
+	margin-bottom: 30px;
+}
+.page-header a.btn-default {
+	position: absolute;
+	top: 15px;
+	left: 15px;
+}
+#type_image {
+	position: absolute;
+	top: 20px;
+	left: 90%;
+}
+p.status {
+	color: #5F86A5;
+}

@@ -1,0 +1,71 @@
+#chart {
+	width: 500px;
+	height: 500px;
+}
+#VorratBrezeln {
+	width: 150px;
+	height: 200px;
+
+}
+p[name="geld"] {
+	margin: 20px 0;
+	font-size: 16px;
+}
+p[name="gesamt"] {
+	font-size: 20px;
+}
+
+svg {	
+	position: absolute;
+	z-index: 3;
+}
+.fa-save {
+	cursor: pointer;
+	position: absolute;
+	
+}
+.fa-save:hover {
+	color: white;
+}
+.fa-shopping-cart , .fa-arrow-down{
+	position: absolute;
+	cursor: pointer;
+	margin-top: -30px;
+	margin-left: 100px;
+}
+.fa-shopping-cart:hover , .fa-arrow-down:hover {
+	color: white;
+}
+.fa-minus-square {
+	color: red;
+	cursor: pointer;
+	margin-left: 10px;
+}
+.fa-plus-square {
+	color: green;
+	cursor: pointer;
+	margin-left: 10px;
+}
+#Vorrat {
+	height: 200px;
+}
+#Vorrat .left {
+	float: left;
+	margin-right: 20px;
+}
+#Vorrat .right select {
+	width: 90px;
+}
+strong.kassenstand_gesamt {
+	color: green;
+}
+
+.table td.gespendet {
+	text-align: center;
+}
+
+.sparschwein {
+	cursor: pointer;
+	width: 16px;
+	height: 16px;
+}

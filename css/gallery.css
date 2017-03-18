@@ -1,0 +1,12 @@
+#bilder_sb img , #first_floor img , #third_floor img , #fourth_floor img{
+	width: 60px;
+	height: 60px;
+	margin-top: 10px;
+}
+#bilder_es img.folder {
+	width: 64px;
+	height: 64px;
+} 
+p.description {
+	color: #0E6463;
+}
